@@ -5,6 +5,18 @@
     margin: 0;
     padding: 0;
 }
+/* css variables */
+:root{
+    --font--size-medium: 32px;
+    --semi-medium-fontsize:36px;
+    --flex-display: flex;
+}
+
+ul,li{
+    list-style: none;
+}
+
+/* end of css variables */
 html{
     font-size: 16px;
 }
@@ -17,11 +29,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height:100vh;
     width:100%;
 }
 .header__top{
-    display: flex;
+    display: var(--flex-display);
     align-items: center;
 }
 /* utility resets */
@@ -43,7 +54,8 @@ img{
 }
 .hero-section h2{
     color:#E98A15;
-    font-size: 32px;
+    /* use defined variable */
+    font-size: var(--font--size-medium);
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
@@ -76,10 +88,13 @@ img{
 
 /* HERO CONTAINER STYLING */
 .hero__container{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.hero__image{
+    border-radius: 10px;
 }
 .hero-section{
     flex-basis: 55%;
@@ -93,7 +108,7 @@ img{
     border-radius: 50%;
 }
 article{
-    display: flex;
+    display: var(--flex-display);
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
@@ -117,10 +132,27 @@ h4{
 
 /* row styling */
 .row{
-    display:flex;
+    display: var(--flex-display);
     align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+    padding: 20px;
 }
 .left__read-together, .community-right{
     width:500px;
 
+}
+.row img{
+    border-radius: 15px;
+
+}
+.right__read_together h2{
+    font-size: var( --semi-medium-fontsize);
+}
+input[type ="checkbox"]{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    vertical-align: middle;
 }
