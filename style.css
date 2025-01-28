@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 /* css variables */
 :root{
     --font--size-medium: 32px;
@@ -17,6 +18,19 @@ ul,li{
 }
 
 /* end of css variables */
+=======
+
+/* css variables */
+:root{
+    --font--size--medium:32px;
+    --flex-display:flex;
+    --semi--medium--fontsize:36px;
+}
+
+ul li {
+  list-style: none;
+}
+>>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
 html{
     font-size: 16px;
 }
@@ -30,6 +44,10 @@ header{
     background-size: cover;
     background-position: center;
     width:100%;
+}
+
+.hero__image{
+    border-radius: 20px;
 }
 .header__top{
     display: var(--flex-display);
@@ -54,8 +72,12 @@ img{
 }
 .hero-section h2{
     color:#E98A15;
+<<<<<<< HEAD
     /* use defined variable */
     font-size: var(--font--size-medium);
+=======
+    /* defined variable */
+>>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
@@ -88,7 +110,11 @@ img{
 
 /* HERO CONTAINER STYLING */
 .hero__container{
+<<<<<<< HEAD
     display:flex;
+=======
+    display: var(--flex-display);
+>>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -132,7 +158,11 @@ h4{
 
 /* row styling */
 .row{
+<<<<<<< HEAD
     display: var(--flex-display);
+=======
+    display:var(--flex-display);
+>>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
     align-items: center;
     justify-content: center;
     gap: 70px;
@@ -143,6 +173,7 @@ h4{
     width:500px;
 
 }
+<<<<<<< HEAD
 .row img{
     border-radius: 15px;
 
@@ -151,8 +182,29 @@ h4{
     font-size: var( --semi-medium-fontsize);
 }
 input[type ="checkbox"]{
+=======
+
+.row img{
+    border-radius: 15px;
+    
+}
+
+.right__read_together h2{
+    font-size: var(--semi--medium--fontsize);
+}
+
+.right__read_together ul li{
+
+}
+input[type="checkbox"]{
+>>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
     width: 20px;
     height: 20px;
     padding: 5px;
     vertical-align: middle;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
