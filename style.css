@@ -5,12 +5,9 @@
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* css variables */
 :root{
     --font--size-medium: 32px;
-    --semi-medium-fontsize:36px;
     --flex-display: flex;
 }
 
@@ -19,9 +16,6 @@ ul,li{
 }
 
 /* end of css variables */
-=======
-=======
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
 
 /* css variables */
 :root{
@@ -33,10 +27,6 @@ ul,li{
 ul li {
   list-style: none;
 }
-<<<<<<< HEAD
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
-=======
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
 html{
     font-size: 16px;
 }
@@ -78,17 +68,16 @@ img{
 }
 .hero-section h2{
     color:#E98A15;
-<<<<<<< HEAD
-<<<<<<< HEAD
     /* use defined variable */
     font-size: var(--font--size-medium);
-=======
+
     /* defined variable */
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
-=======
+
     /* defined variable */
     font-size: var(--font--size--medium);
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
+
+    /* defined variable */
+    font-size: var(--font--size--medium);
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
@@ -121,15 +110,12 @@ img{
 
 /* HERO CONTAINER STYLING */
 .hero__container{
-<<<<<<< HEAD
-<<<<<<< HEAD
     display:flex;
-=======
     display: var(--flex-display);
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
-=======
+
     display: var(--flex-display);
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
+
+    display: var(--flex-display);
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -173,15 +159,13 @@ h4{
 
 /* row styling */
 .row{
-<<<<<<< HEAD
-<<<<<<< HEAD
     display: var(--flex-display);
-=======
+
     display:var(--flex-display);
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
-=======
+
     display:var(--flex-display);
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
+
+    display:var(--flex-display);
     align-items: center;
     justify-content: center;
     gap: 70px;
@@ -192,8 +176,6 @@ h4{
     width:500px;
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .row img{
     border-radius: 15px;
 
@@ -202,9 +184,7 @@ h4{
     font-size: var( --semi-medium-fontsize);
 }
 input[type ="checkbox"]{
-=======
-=======
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
+}
 
 .row img{
     border-radius: 15px;
@@ -219,22 +199,8 @@ input[type ="checkbox"]{
 
 }
 input[type="checkbox"]{
-<<<<<<< HEAD
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
-=======
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
     width: 20px;
     height: 20px;
     padding: 5px;
     vertical-align: middle;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
-=======
-
-
->>>>>>> c56e96d84fb0899be9a996e18ac3da80e368186e
