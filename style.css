@@ -159,13 +159,7 @@ h4{
 
 /* row styling */
 .row{
-    display: var(--flex-display);
-
-    display:var(--flex-display);
-
-    display:var(--flex-display);
-
-    display:var(--flex-display);
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 70px;
