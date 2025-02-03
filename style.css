@@ -187,4 +187,61 @@ input[type="checkbox"]{
     height: 20px;
     padding: 5px;
     vertical-align: middle;
+    display: inline-block;
+    margin: 0px 10px;
 }
+
+
+
+/* read together code together styling */
+.list__items{
+    margin-top: 20px;
+}
+.list__items li{
+    margin: 10px;
+}
+
+/* community left */
+
+.community-left h2{
+    font-size:36px;
+    letter-spacing: 1.2px;
+    font-family: var();
+
+}
+.community-left p{
+    margin-top: 20px;
+    font-size:18 px;
+}
+ .tech__journey{
+    background: linear-gradient(-270deg,rgba(173, 207, 201, 0.5),rgba(9, 149, 236, 0.5)),url(./assets/sqaured_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3em;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+ }
+ .tech__journey .membership .membership-details .square{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+
+ }
+ .tech__journey h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+ }
+ .membership-details h3{
+    margin-top: 30px;
+
+ }
+
+
+
