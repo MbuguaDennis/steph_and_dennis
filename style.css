@@ -9,6 +9,12 @@
 :root{
     --font--size-medium: 32px;
     --flex-display: flex;
+    --card-bg1:rgba(218, 209, 209, 0.3);
+    --card-bg2:rgba(217, 238, 243, 0.3);
+    --rich-black:#001011;
+    --midnight-green:#093A3E;
+    --font-family-poppins: "Poppins", serif;
+
 }
 
 ul,li{
@@ -242,6 +248,138 @@ input[type="checkbox"]{
     margin-top: 30px;
 
  }
+
+ /* membership options*/
+ .membership__options{
+    margin-top: 4em;
+ }
+ .membership__options h4{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+ }
+
+
+.membership__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.membership__cards .membership__cards-details{
+    border: 1px solid #4445;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.membership__cards-details strong{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #828e82;
+    font-size: 24px;
+
+}
+.membership__cards-details h5{
+    font-size: 18px;
+
+}
+.membership__cards-details hr{
+    opacity: 0.1;
+}
+.membership__cards-details ul li{
+    margin: 1em 0;
+    color: #828e82;
+}
+.subscribe-btn{
+    border: 1px solid #090601;
+    background: linear-gradient(135deg,#eb9014,#eb9014);
+    color: #090601;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 26px;
+    border-radius: 9.5px;
+}
+.membership__cards-details:nth-child(2){
+    background: linear-gradient(var(--card-bg1),var(--card-bg2));
+    transform: translateY(-20px);
+    padding-bottom: 4em;
+}
+.membership__cards-details:nth-child(1), .membership__cards-details:nth-child(3){
+    transform: translateY(-15px);
+}
+
+/* REVIEW SECTION STYLING */
+.review{
+    width: 75%;
+    margin: 3em auto 0;
+    text-align: center;
+}
+.review h2{
+    margin-top: 1.5em;
+    letter-spacing: 1.5;
+    font-size: 1.5rem;
+    font-weight:500;
+}
+.review h3{
+    color: #6abe41;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+.footer{
+    background: linear-gradient(90deg,var(--rich-black),var(--midnight-green));
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.footer hr{
+    opacity: 0.1;
+}
+
+
+.footer article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h2{
+    color: white;
+    font-size: 2.5rem;
+    font-family: var(--font-family-poppins);
+
+}
+.review__link{
+    border: 1px solid white;
+    color:white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    display: inline-block;
+    margin: 24px 0;
+
+}
+
+.footer h4{
+    color: white;
+}
+.footer hr{
+    margin-top: 50px;
+}
+
+.footer__copyright{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.fa-x-twitter{
+    margin-left: 10px;
+}
+    
+
+
 
 
 
