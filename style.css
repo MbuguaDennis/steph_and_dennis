@@ -30,7 +30,8 @@ ul,li{
 }
 
 ul li {
-  list-style: none;
+    list-style: none;
+
 }
 html{
     font-size: 16px;
@@ -175,7 +176,6 @@ h4{
 .right__read_together h2{
     font-size: var( --semi-medium-fontsize);
 }
-
 .row img{
     border-radius: 15px;
     
@@ -195,6 +195,54 @@ input[type="checkbox"]{
     vertical-align: middle;
     display: inline-block;
     margin: 0px 10px;
+
+}
+
+.list__items{
+    margin-top: 20px;
+}
+.list__items li{
+    margin: 10px;
+}
+/* community-left */
+.community-left h2{
+    font-size: 36px;
+    letter-spacing: 1.2px;
+    font-family:
+}
+.community-left p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* tech reading section style */
+.tech__journey{
+    background: linear-gradient(-270deg,rgba(173, 207, 201, 0.5),rgba(9, 149, 236, 0.5)),url(./assets/tech-reading.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3em;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.tech__journey .membership .membership-details .square{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+    
+}
+.tech__journey h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.membership-details h3{
+    margin-top: 30px;
 }
 
 
@@ -219,7 +267,7 @@ input[type="checkbox"]{
     margin-top: 20px;
     font-size:18 px;
 }
- .tech__journey{
+.tech__journey{
     background: linear-gradient(-270deg,rgba(173, 207, 201, 0.5),rgba(9, 149, 236, 0.5)),url(./assets/sqaured_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -229,8 +277,8 @@ input[type="checkbox"]{
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
- }
- .tech__journey .membership .membership-details .square{
+}
+.tech__journey .membership .membership-details .square{
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -239,15 +287,15 @@ input[type="checkbox"]{
     font-size: 20px;
     border: 2px solid black;
 
- }
- .tech__journey h2{
+}
+.tech__journey h2{
     margin-bottom: 30px;
     font-size: 30px;
- }
- .membership-details h3{
+}
+.membership-details h3{
     margin-top: 30px;
 
- }
+}
 
  /* membership options*/
  .membership__options{
